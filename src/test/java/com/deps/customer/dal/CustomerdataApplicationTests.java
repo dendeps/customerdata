@@ -40,6 +40,7 @@ public class CustomerdataApplicationTests {
 		customerRepository.save(customer);
 	}
 	
+	@Test
 	public void testDeleteCustomer() {
 		customerRepository.deleteById(1l);
 	}
